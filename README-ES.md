@@ -126,17 +126,24 @@ Si vamos a http://0.0.0.0:3000/explorer o http://localhost:3000/explorer vamos a
 Bueno ahora es la parte donde ustedes se ponen a jugar (yo solo voy a mostrar un par de ejemplos sencillos), loopback ya creo toda la API por nosotros, donde tenemos tenemos las operaciones más comunes: POST, GET, PUT, find, exists, etc.
 
 Agregar un nuevo item:
- - 1 - Abrimos el acordeon en POST /todos (nos llevara a http://localhost:3000/explorer/#!/todos/create). 
 
- Una vez abierto tenemos un par de cosas interesantes, en principio esta separado en tres grupos para que sea mejor la visualizacion de cada paso: Response Class, Parameters, Response Messages.
- La Response Class la podemos visualizar de dos maneras, Model: que nos mostrara como estan definidan sus propiedades (de que tipo son, si son requiridas o no, etc) y Model Schema: que nos muestra un json con los valores por defectos.
- En parameters en el textarea value agregamos el item que queremos (podemos agregarlo directamente o haciendo click sobre la el model schema de la columna Data Type nos setea el esqueleto para que lo completemos).
- En ambos grupos podemos setear el content type.
- Y por ultimo, pero no menos importante, tenemos el Response Messages, donde nos muestra de donde vino el request y algunos datos de la respuesta como el body, el code y los headers.
+Primero abrimos el acordeon en POST /todos (nos llevara a http://localhost:3000/explorer/#!/todos/create). 
 
- ![Imagen-Making-POST](https://raw.githubusercontent.com/Fblind/loopback-todo-example/master/images/POST-todo-app-pt1.es.png)
- En este ejemplo agregamos un item, limpiar la cocina :( y una vez que hacemos click en "Try it out!" nos muestra la respuesta:
- ![Imagen-POST-RESPONSE](https://raw.githubusercontent.com/Fblind/loopback-todo-example/master/images/POST-RESPONSE-todo-app-pt1.es.png)
+Una vez abierto tenemos un par de cosas interesantes, en principio esta separado en tres grupos para que sea mejor la visualizacion de cada paso: Response Class, Parameters, Response Messages.
+
+La Response Class la podemos visualizar de dos maneras, Model: que nos mostrara como estan definidan sus propiedades (de que tipo son, si son requiridas o no, etc) y Model Schema: que nos muestra un json con los valores por defectos.
+ 
+En parameters en el textarea value agregamos el item que queremos (podemos agregarlo directamente o haciendo click sobre la el model schema de la columna Data Type nos setea el esqueleto para que lo completemos).
+ 
+En ambos grupos podemos setear el content type.
+ 
+Y por ultimo, pero no menos importante, tenemos el Response Messages, donde nos muestra de donde vino el request y algunos datos de la respuesta como el body, el code y los headers.
+
+![Imagen-Making-POST](https://raw.githubusercontent.com/Fblind/loopback-todo-example/master/images/POST-todo-app-pt1.es.png)
+
+En este ejemplo agregamos un item, limpiar la cocina :( y una vez que hacemos click en "Try it out!" nos muestra la respuesta:
+
+![Imagen-POST-RESPONSE](https://raw.githubusercontent.com/Fblind/loopback-todo-example/master/images/POST-RESPONSE-todo-app-pt1.es.png)
 
 Para ver todos los items que agregamos podemos hacer el mismo procedimiento pero ahora con GET, aqui podemos usar los filtros, pero queda para otra ocasion mostrar el uso de estos.
 
