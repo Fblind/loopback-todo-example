@@ -1,6 +1,6 @@
 # Conociendo loopback - Parte 1.
 
-**IMAGEN DE DEVECOOP LOOPBACK**
+![Imagen-Devecoop-Loopback](https://raw.githubusercontent.com/Fblind/loopback-todo-example/master/images/Devecoop-Loopback.png)
 
 Buenas!, este articulo es el primero de una serie de varios sobre este framework llamado [Loopback].
 
@@ -134,13 +134,13 @@ Agregar un nuevo item:
  En ambos grupos podemos setear el content type.
  Y por ultimo, pero no menos importante, tenemos el Response Messages, donde nos muestra de donde vino el request y algunos datos de la respuesta como el body, el code y los headers.
 
- ** IMAGEN DE LA PREPARACION **
+ ![Imagen-Making-POST](https://raw.githubusercontent.com/Fblind/loopback-todo-example/master/images/POST-todo-app-pt1.es.png)
  En este ejemplo agregamos un item, limpiar la cocina :( y una vez que hacemos click en "Try it out!" nos muestra la respuesta:
- ** IMAGEN DE LA RESPUESTA **
+ ![Imagen-POST-RESPONSE](https://raw.githubusercontent.com/Fblind/loopback-todo-example/master/images/POST-RESPONSE-todo-app-pt1.es.png)
 
 Para ver todos los items que agregamos podemos hacer el mismo procedimiento pero ahora con GET, aqui podemos usar los filtros, pero queda para otra ocasion mostrar el uso de estos.
 
-** IMAGEN DEL GET **
+![Imagen-GET](https://raw.githubusercontent.com/Fblind/loopback-todo-example/master/images/GET-RESPONSE-todo-app-pt1.es.png)
 
 Esto fue una primera mirada de lo que nos ofrece Loopback, sin haber agregado una linea de codigo por nosotros mismos tenemos una API REST de un modelo que definimos.
 
