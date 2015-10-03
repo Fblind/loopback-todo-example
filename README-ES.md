@@ -4,20 +4,20 @@
 
 Buenas!, este articulo es el primero de una serie de varios sobre este framework llamado [Loopback].
 
-Loopback como dice su pagina es un framework javascript basado en express. 
+Loopback como dice su pagina es un framework javascript **basado en express**, por lo que si conocen express será fácil de entender y usar el conocimiento que ya tienen. 
 > LoopBack is an open source Node.js framework built on top of Express optimized for building APIs for mobile, web, and other devices. Connect to multiple data sources, write business logic in Node.js, glue on top of your existing services and data, connect using JS, iOS & Android SDKs
 
 En el último proyecto donde estuve optamos por usar este poderoso framework, que tiene varias cosas muy interesantes, entre ellas:
-- Easy-to-use CLI wizard.
-- Built-in API Explorer.
-- Diversas caracteristicas para la creacion, relaciones y permisos de los modelos.
-- Es isomorfico, compartiendo entre el cliente y el server la misma API.
+- Easy-to-use **CLI wizard**.
+- Built-in **API Explorer**.
+- Diversas caracteristicas para la **creacion, relaciones y permisos de los modelos**.
+- Es **isomorfico**, compartiendo entre el cliente y el server la misma API.
 
 Que mejor forma de ver el potencial que usandolo...
 
 ### Paso 1 - Instalación:
 
-Facil, con un paquete npm corriendo la siguiente:
+Fácil, con un **paquete npm** corriendo la siguiente:
 ```
 $ npm install -g strongloop
 ```
@@ -25,7 +25,7 @@ $ npm install -g strongloop
 
 Ahora que ya lo tenemos instalado vamos a poner manos a la obra !
 
-Lo primero que tenemos que hacer es crear un proyecto, como soy alguien que se olvida de las cosas (y lamentablemente tengo muchas cosas que hacer) se me ocurrio algo fácil y productivo: un TODO.
+Lo primero que tenemos que hacer es crear un proyecto, como soy alguien que se olvida de las cosas (y lamentablemente tengo muchas cosas que hacer) se me ocurrio algo fácil y productivo: un **TODO**.
 
 Cómo hacemos esto ?, con nuestro Easy-to-use CLI wizard:
 ```
@@ -55,9 +55,9 @@ Let's add some todo properties now.
 ```
 
 Que son todas esas selecciones que hicimos:
-- Select the data-source to attach todo to: **db (memory):** En esta entrega elegimos que nuestro datasource sea memory y se guarde en ella, eso quiere decir que al cerrar nuestra app, se perdera todo lo que guardemos. Mas adelante veremos como podemos ir cambiando de datasources.
-- Select model's base class: **PersistedModel**: PersistedModel es el modelo base de todos los modelos que vienen con Loopback, exepto Email y ademas nos provee de base las operaciones CRUD y nos expone los REST endpoints.
-- Expose todo via the REST API? **Yes**: Nos da la posiblidad de usar el explorer.
+- Select the data-source to attach todo to: **db (memory):** En esta entrega elegimos que nuestro datasource sea memory y se guarde en ella, eso quiere decir que **al cerrar nuestra app, se perdera todo lo que guardemos**. Mas adelante veremos como podemos ir cambiando de datasources.
+- Select model's base class: **PersistedModel**: PersistedModel es el modelo base de todos los modelos que vienen con Loopback, exepto Email y ademas **nos provee de base las operaciones CRUD y nos expone los REST endpoints**.
+- Expose todo via the REST API? **Yes**: Nos da la posiblidad de **usar el explorer**.
 
 Hasta acá tenemos creado el modelo, y como nos dice la consola vamos a agregar las propiedades que mencionamos anteriormente:
 
@@ -76,8 +76,9 @@ Enter an empty property name when done.
 ```
 Cuando no queremos agregar más propiedades le damos ctrl+c
 
-Fijense que se crearon dos archivos, todo.js y todo.json. El todo.json es el esqueleto del modelo donde se definen propiedades, campos, relaciones, permisos, etc. Y el todo.js es donde vamos a crear los metodos remotos de este modelo, hooks, etc.
+Fijense que se crearon dos archivos, **todo.js** y **todo.json**. El todo.json es el esqueleto del modelo donde se definen propiedades, campos, relaciones, permisos, etc. Y el todo.js es donde vamos a crear los metodos remotos de este modelo, hooks, etc.
 Cabe agregar que esta forma es comun a todos los modelos.
+
 Asi quedo nuestro todo.json:
 ```
 {
@@ -135,7 +136,7 @@ La Response Class la podemos visualizar de dos maneras, Model: que nos mostrara 
  
 En parameters en el textarea value agregamos el item que queremos (podemos agregarlo directamente o haciendo click sobre la el model schema de la columna Data Type nos setea el esqueleto para que lo completemos).
  
-En ambos grupos podemos setear el content type.
+**En ambos grupos podemos setear el content type.**
  
 Y por ultimo, pero no menos importante, tenemos el Response Messages, donde nos muestra de donde vino el request y algunos datos de la respuesta como el body, el code y los headers.
 
@@ -149,7 +150,7 @@ Para ver todos los items que agregamos podemos hacer el mismo procedimiento pero
 
 ![Imagen-GET](https://raw.githubusercontent.com/Fblind/loopback-todo-example/master/images/GET-RESPONSE-todo-app-pt1.es.png)
 
-Esto fue una primera mirada de lo que nos ofrece Loopback, sin haber agregado una linea de codigo por nosotros mismos tenemos una API REST de un modelo que definimos.
+Esto fue una primera mirada de lo que nos ofrece Loopback, **sin haber agregado una linea de codigo por nosotros mismos** tenemos una API REST de un modelo que definimos.
 
 En la proxima parte vamos a ver como integrar el cliente y conectarnos a alguna base de datos.
 
