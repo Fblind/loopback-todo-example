@@ -17,6 +17,7 @@ Que mejor forma de ver el potencial que usándolo...
 
 ### Paso 1 - Instalación:
 
+Primero verifica que tengas Node y NPM instalados, si falta instalarlo tenes este [muy buen post de Ale][postInstalNode]
 Fácil, con un **paquete npm** corriendo la siguiente:
 ```
 $ npm install -g strongloop
@@ -158,3 +159,4 @@ En la próxima parte vamos a ver como integrar el cliente y conectarnos a alguna
    [df2]:https://strongloop.com/strongblog/ibm-express-loopback-node-js/
    [step0]: https://github.com/Fblind/loopback-todo-example/tree/step-0
    [step1]:https://github.com/Fblind/loopback-todo-example/tree/step-1
+   [postInstalNode]: http://braincoop.devecoop.com/es/posts/como-crear-una-app-backbone-requirejs-compass-desde-cero-con-yeoman.html
