@@ -151,15 +151,15 @@ In **Parameters** we have a textarea called value, in there we can add the item 
  
 At last, we have the **Response Messages**, which show us where the request from and some data of the response like the body, the code and the headers.
 
-![Imagen-Making-POST](https://raw.githubusercontent.com/Fblind/loopback-todo-example/master/images/POST-todo-app-pt1.es.png)
+![Imagen-Making-POST](https://raw.githubusercontent.com/Fblind/loopback-todo-example/master/images/POST-todo-app-pt1.en.png)
 
 In this example we add one item, "Clean the kitchen" :(. After we click on "Try it out!", we have the following response:
 
-![Imagen-POST-RESPONSE](https://raw.githubusercontent.com/Fblind/loopback-todo-example/master/images/POST-RESPONSE-todo-app-pt1.es.png)
+![Imagen-POST-RESPONSE](https://raw.githubusercontent.com/Fblind/loopback-todo-example/master/images/POST-RESPONSE-todo-app-pt1.en.png)
 
 To see all added items we can do the same steps but with GET option, in addition we can use filter here, but we will leave this for later.
 
-![Imagen-GET](https://raw.githubusercontent.com/Fblind/loopback-todo-example/master/images/GET-RESPONSE-todo-app-pt1.es.png)
+![Imagen-GET](https://raw.githubusercontent.com/Fblind/loopback-todo-example/master/images/GET-RESPONSE-todo-app-pt1.en.png)
 
 That was the first look on what Loopback offers, **we create an API REST without adding a single line of code**.
 
