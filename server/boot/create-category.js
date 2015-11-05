@@ -1,7 +1,11 @@
 module.exports = function(server) {
 
-  var Model = server.loopback.Model;
-  Model.extend('categories');
+  var config = {
+   dataSource: 'db',
+   public: true
+  };
+  server.model('Category', config);
+
 
 };
 
