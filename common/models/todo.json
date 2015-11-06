@@ -17,7 +17,12 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "categories": {
+      "type": "hasAndBelongsToMany",
+      "model": "category"
+    }
+  },
   "acls": [],
   "methods": []
 }
