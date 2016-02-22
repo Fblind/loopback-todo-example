@@ -58,7 +58,7 @@ Let's add some todo properties now.
 Que son todas esas selecciones que hicimos:
 - Select the data-source to attach todo to: **db (memory):** En esta entrega elegimos que nuestro datasource sea memory y se guarde en ella, eso quiere decir que **al cerrar nuestra app, se perderá todo lo que guardemos**. Mas adelante veremos como podemos ir cambiando de datasources.
 - Select model's base class: **PersistedModel**: PersistedModel es el modelo base de todos los modelos que vienen con Loopback, excepto Email y además **nos provee de base las operaciones CRUD y nos expone los REST endpoints**.
-- Expose todo via the REST API? **Yes**: Nos da la posibilidad de **usar el explorer**.
+- Expose todo via the REST API? **Yes**: Nos da la posibilidad de **usar el API Explorer**.
 
 Hasta acá tenemos creado el modelo, y como nos dice la consola vamos a agregar las propiedades que mencionamos anteriormente:
 
