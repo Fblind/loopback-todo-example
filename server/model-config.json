@@ -14,30 +14,30 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "todoMongo"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "todoMongo",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "todoMongo",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "todoMongo",
     "public": false
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "todoMongo",
     "public": false
   },
   "todo": {
-    "dataSource": "db",
+    "dataSource": "todoMongo",
     "public": true
   },
   "category": {
-    "dataSource": "db",
+    "dataSource": "todoMongo",
     "public": true
   }
 }

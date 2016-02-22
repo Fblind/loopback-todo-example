@@ -2,5 +2,14 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "todoMongo": {
+    "name": "todoMongo",
+    "connector": "mongodb",
+    "host": "127.0.0.1", 
+    "database": "todoDB", 
+    "username": "", 
+    "password": "", 
+    "port": 27017 
   }
 }
