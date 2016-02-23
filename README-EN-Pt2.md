@@ -119,7 +119,7 @@ You can find the code [here][step-3]
 
 As you can test, if we have an "Example" and we want to add another "Example", the explorer will display:
 
-![Imagen-Duplicate](https://raw.githubusercontent.com/Fblind/loopback-todo-example/master/images/validacion-en.png)
+![Imagen-Duplicate](https://raw.githubusercontent.com/Fblind/loopback-todo-example/master/images/validation-en.png)
 
 Validations is a long topic. For those interested, here's a [very good article][validationDoc] about all the validation methods provided by the framework.
 
