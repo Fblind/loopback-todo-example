@@ -292,6 +292,6 @@ Bueno esto fue todo, espero que les haya gustado, a mi como siempre me gustó po
   [mongoDownload]: <https://www.mongodb.org/downloads#production>
   [step-4]: <https://github.com/Fblind/loopback-todo-example/commit/b86facded30ca4e24f5f3680449d6d72105f9d0f>
   [mySqlDownloads]: <http://dev.mysql.com/downloads/>
-  [mySqlDocs]: < https://docs.strongloop.com/display/public/LB/MySQL+connector>
+  [mySqlDocs]: <https://docs.strongloop.com/display/public/LB/MySQL+connector>
   [step-3]: <https://github.com/Fblind/loopback-todo-example/tree/step-3>
   [HTTPMethods]: <https://es.wikipedia.org/wiki/Hypertext_Transfer_Protocol#M.C3.A9todos_de_petici.C3.B3n>
