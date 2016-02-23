@@ -271,7 +271,7 @@ En principio debemos tener MySQL 5.0 o superior, en la [página][mySqlDownloads]
 
 Luego son los mismos pasos que hicimos antes, instalar el conector, configurar los modelos y la conexión y empezar a jugar !
 
-Igualmente [áca][mySqlDocs] dejo la documentación del connector.
+Igualmente [acá][mySqlDocs] dejo la documentación del connector.
 
 
 Bueno esto fue todo, espero que les haya gustado, a mi como siempre me gustó poder hacerlo, para la próxima entrega vamos a ver como integrar el cliente con todo lo que estuvimos haciendo, espero poder traerla con menos tiempo de diferencia.
